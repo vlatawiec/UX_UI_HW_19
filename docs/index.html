@@ -6,20 +6,29 @@
     <link rel="stylesheet" href="/Icons/Icon Font/CSS/phosphor.css">
 </head>
 <body>
- <!-- Header Navigation -->   
-    <header class="navigation">
-        <div class="logo inline-block">
-            <a href="index.html"><img src="images/logo.png" alt="Home" height="100px" width="100px" ></a>
-            <nav class="inline-block">
-                <ul class="navItems">
-                    <li class="navlink">about</li>
-                    <li class="navlink">work</li>
-                    <li class="navlink">art</li>
-                    <li class="navlink">contact</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <!-- Header Navigation --> 
+ 
+ <header class="navigation">
+    <div class="logoinline-block">
+        <a href="index.html"><img src="/Images/logo.svg" alt="Home" height="100px" width="100px" ></a>
+    </div> 
+    <div class="RightAlignNav"> 
+        <nav class="inline-block">
+            <ul class="navItems">
+                <li class="navlink"><a href="/secondary pages/about.html">about</a></li>
+                <li class="navlink"><a href="/secondary pages/Work page/work.html">work</a></li>
+                <li class="navlink"><a href="/secondary pages/art.html">art</a></li>
+            </ul> 
+            <div class="ContactButton">
+                <span class="button">
+                    <a href="secondary pages/contact.html" style="color: white; text-decoration: none;" >contact</a>
+                </span>
+            </div>
+        </nav>
+    </div>  
+</header>
+
+
  <!-- Header Navigation --> 
 
 <!-- Hero Section -->
@@ -28,7 +37,7 @@
             <div class="IText">
                 <h1> Hi! </h1>
                 <h1> I'm Veronika </h1>
-                <h2>I’m a Toronto based UX and UI Designer with a passion for illustration and storytelling, I love conceptualizing and developing empathetic solutions, in order to create meaningful user experiences.</h2>
+                <p>I’m a Toronto based UX and UI Designer with a passion for illustration and storytelling, I love conceptualizing and developing empathetic solutions, in order to create meaningful user experiences.</p>
             </div>
             <div class="heroCTA">
                 <span class="button">
@@ -46,52 +55,48 @@
 <!-- Hero Section -->
 
 <!-- Latest Projects -->
-    <section>
-        <h1> Latest Works </h1>
+    <section class="mywork">
+        <h2> Latest Works </h2>
+    <div class="workgrid">
 
         <!-- Canadian Space Agency -->
-        <div class="Casestudy1">
-            <div class="ProjectTitle">
+        <div class="ProjectTitle">
                 <h2> Canadian Space Agency</h2>
                 <p> An in-depth look at the site structure, usability and overall user satisfaction of the Canadian Space Agency Website, resulting in a high-fidelity, responsive redesign.</p>
-            </div>
-            <span class="button">
+             <span class="button">
                 <a href="secondary pages/Work page/Casestudy1.html"  style="color: white; text-decoration: none;" >explore</a>
-            </span>
-            </div> 
-            <div class="csaimage"> 
-                <img src="images/project-csa.png" alt="project image" height="600" width="900">
-            </div>
+            </span> 
         </div>
-
+        <div class="csaimage"> 
+                <img src="images/project-csa.png" alt="project image" height="600" width="900">
+        </div>
+    
         <!-- Funpedia -->
-        <div class="Casestudy2">
-            <div class="ProjectTitle">
+        <div class="ProjectTitle">
                 <h2> Funpedia</h2>
                 <p> Do you, like 60% of our users, struggle to come up with new and exciting activities? Funpedia is the mobile app solution that uses user-centric reccommendations to quickly eliminate planning fatigue and date-night boredom.</p>
-            </div>
-            <span class="button">
+                <span class="button">
                 <a href="secondary pages/Work page/Casestudy2.html" style="color: white; text-decoration: none;" >explore</a>
-            </span>
-            </div class="fpimage"> 
+                </span>
+        </div>
+        </div class="fpimage"> 
                 <img src="images/project-funpedia.png" alt="project image" height="600" width="600">
-            </div>
         </div>
 
         <!-- NWIA -->
-        <div class="Casestudy3">
-            <div class="ProjectTitle">
+        <div class="ProjectTitle">
                 <h2> Native Women In the Arts</h2>
                 <p>To help this inspiring non-ptofit to futher help gender-marginalized, native artists, our responsive site redesign focused on building a community through UX/UI, and streamlining site goals in order to better tell the NWIA’s story, and increase donations.</p>
-            </div>
-            <span class="button">
+                <span class="button">
                 <a href="secondary pages/Work page/Casestudy3.html" style="color: white; text-decoration: none;" >explore</a>
-            </span>
-            </div class="nwiaimage"> 
-                <img src="images/project-nwia.png" alt="project image" height="600" width="700">
-            </div>
+                </span>
         </div>
-
+        </div class="nwiaimage"> 
+                <img src="images/project-nwia.png" alt="project image" height="600" width="700">
+        </div>
+        
+    </div>
+    <h3> view all projects </h3>
     </section>
 
 <!-- Back to top button *will need java to implement useage/appearance after user scroll -->
@@ -126,7 +131,7 @@
             <a href="#" class="ph-instagram-logo-fill"></a>
             <a href="#" class="ph-gitlab-logo-simple-fill"></a>
         </div>
-            <p style="size: 12px; font-weight: lighter;">copyright 2021</p>
+            <p id="copyright" style="size: 12px; font-weight: lighter;">copyright 2021</p>
     </footer>
 </section>
 
