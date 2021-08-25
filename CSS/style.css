@@ -1,3 +1,241 @@
+/*nav*/
+#FPNav {
+  background-color: #f5f0f6;
+  padding: 20px;
+}
+#FPNav a {
+  text-decoration: none;
+  color: #f26600;
+  font-weight: bold;
+  font-family: nunito;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#FPNav a :hover {
+  color: #ffbf3b;
+}
+#FPNav a :active {
+  background-color: #f26600;
+  color: #ffffff;
+}
+#FPSection {
+  text-align: center;
+  padding: 40px;
+  background-color: #f26600;
+  color: #ffffff;
+}
+#FPSolution {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #f26600;
+  margin: 0;
+}
+.SolutionText {
+  width: 50%;
+  color: #ffffff;
+}
+#FPSolution p {
+  line-height: 250%;
+  font-size: 150%;
+  font-family: Open Sans;
+  font-weight: bolder;
+}
+#FPSolution img {
+  width: 35%;
+  height: auto;
+}
+.firstC {
+  background-color: #f26600;
+  width: 50%;
+}
+.firstC img {
+  width: 100%;
+  height: 100%;
+}
+.heroTXT {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 75px;
+  padding-right: 50px;
+}
+.heroTXT p {
+  margin-top: 50px;
+}
+.FPHero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.infoTXT h1 {
+  line-height: 100%;
+  font-size: 36pt;
+  margin-bottom: 30px;
+}
+.infoTXT {
+  width: 50%;
+  margin-left: 75px;
+  margin-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.titleTXT h1 {
+  font-size: 20pt;
+  margin-bottom: 5px;
+  color: #f26600;
+}
+.titleTXT p {
+  font-size: 16pt;
+}
+.projectOutcomes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.card {
+  border: none;
+}
+.projectOutcomesDiv {
+  margin-top: 100px;
+  margin-left: 75px;
+}
+.projectOutcomesDiv h1 {
+  color: #ffffff;
+  background-color: #f26600;
+  padding: 30px;
+  width: fit-content;
+}
+.Hook {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.Hook h1 {
+  line-height: 150%;
+}
+.smallTXT {
+  text-align: end;
+  font-size: 12pt;
+  color: #ada8b6;
+  margin-top: 50px;
+}
+.Hook a {
+  align-self: flex-end;
+  font-size: 12pt;
+  color: #ada8b6;
+}
+.researchImg {
+  width: fit-content;
+}
+.Research {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.thx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.related {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.suggestedCard {
+  display: flex;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card-img-overlay {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.takeaways {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.takeawayImg img {
+  width: 100%;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.takeaways li {
+  font-size: 24pt;
+  font-family: open sans;
+  line-height: 150%;
+}
+.tagline {
+  margin: 100px;
+}
+.jumbotron {
+  font-family: nunito;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.goals li {
+  font-size: 16pt;
+}
+.Craig {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.storyboard {
+  border: #ada8b6;
+  border-width: 2px;
+}
+.prototypeBTTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.process {
+  flex: 0 0 auto;
+}
+.buttonPrototype {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*Previous css*/
+
 /* Back to top button*/
 
 .backToTop svg {
